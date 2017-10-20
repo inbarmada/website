@@ -1,0 +1,77 @@
+#title{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: #114fb2;
+  position: absolute;
+  padding: 10px;
+  padding-bottom: 15px;
+  top: -25px;
+  left: 0px;
+  width: 100%;
+}
+#menu{
+  background-color: #156af2;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  top: 40px;
+  left: -10px;
+  padding: 10px;
+  padding-left: 15px;
+  font-size: 20px;
+  width: 100%;
+}
+
+.linky{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  position: relative;
+  left: 30%;
+  padding: 10px;
+}
+#dog{
+  position: relative;
+  left: 60%;
+}
+.linky:hover{
+  background-color: rgb(0, 0, 255);
+}
+p{
+  font-family: 'Cabin', sans-serif;
+  position: relative;
+  top: 95px;
+}
+#image{
+  position: absolute;
+  top: 150px;
+  left: 10px;
+  z-index: 1;
+}
+.dropdown{
+  position: fixed;
+  left: 30%;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover{
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
